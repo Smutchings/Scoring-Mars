@@ -9,8 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+      NavigationView {
+        VStack {
+          
+          Text("Start New Game")
+          
+          // button goes here
+          
+          Text("Play History")
+          
+          // play history list goes here
+          
+        }
+        .navigationTitle("Scoring Mars")
+      }
+      
     }
 }
 
