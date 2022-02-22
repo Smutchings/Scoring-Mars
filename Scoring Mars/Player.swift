@@ -9,9 +9,13 @@ import Foundation
 
 struct Player: Identifiable {
   let id : UUID = UUID()
-  var name : String = ""
-  var score : Int = 5
-  var playerColour : String = ""
+  let name : String
+  var playerScore : Int = 5
+  var playerColour : String
   var milestonesEarned : [String] = []
   var awardsEarned : [String] = []
+  
+  mutating func changePlayerColour(colour: String) {
+    playerColour = colour
+  }
 }

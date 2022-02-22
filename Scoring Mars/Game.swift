@@ -8,6 +8,9 @@
 import Foundation
 
 struct Game: Identifiable {
-  let id = UUID()
-  
+  let id : UUID
+  var players : [Player]
+  let playDate : Date
+  var mapPlayed : String
+  var selectedExpansions : [String]
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Prelude</title>
+    <g id="Prelude" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M37.5,5.61718569 L37.5,38.3828143 L5.5,31.5949355 L5.5,12.4050645 L37.5,5.61718569 Z" id="Rectangle" stroke="#000000"></path>
+        <g id="Group" transform="translate(21.500000, 21.500000) rotate(90.000000) translate(-21.500000, -21.500000) translate(11.500000, 8.500000)" stroke="#000000" stroke-linecap="square">
+            <polyline id="Line" points="0 0 10 26 20 0"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Turmoil</title>
+    <g id="Turmoil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#000000" transform="translate(22.000000, 22.000000) rotate(45.000000) translate(-22.000000, -22.000000) " x="9.5" y="9.5" width="25" height="25"></rect>
+        <g id="Group" transform="translate(16.000000, 11.000000)" fill="#000000">
+            <rect id="Rectangle" x="4" y="0" width="4" height="14"></rect>
+            <polygon id="Triangle" transform="translate(6.000000, 16.500000) rotate(180.000000) translate(-6.000000, -16.500000) " points="6 13 12 20 6 20 -1.41110538e-17 20"></polygon>
+        </g>
+    </g>
+</svg>

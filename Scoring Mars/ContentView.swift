@@ -13,8 +13,8 @@ struct ContentView: View {
       NavigationView {
         VStack {
           
-          List {
-            Section(header: Text("Start New Game")) {
+          Form {
+            Section(header: Text("Score a New Game")) {
               Button(action: addPlayer) {
                 Label("New Game", systemImage: "plus.circle.fill")
               }
@@ -22,30 +22,23 @@ struct ContentView: View {
             
             Section(header: Text("Game History")) {
               
-              NavigationLink(destination: PlayerView()) {
+              NavigationLink(destination: GameView()) {
                 Label {
-                  Text("Game #154")
+                  Text("Game #155")
                   
                 } icon: {
                   Image(systemName: "globe")
                 }
-                .badge("x players")
+                .badge("04/10/1989")
               }
               
             }
           }
           .listStyle(.insetGrouped)
           
-          Text("Start New Game")
-          
-          // button goes here
-          
-          Text("Play History")
-          
-          // play history list goes here
-          
         }
         .navigationTitle("Scoring Mars")
+        
       }
       
     }
